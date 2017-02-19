@@ -1,4 +1,3 @@
-angularmodule('NoteWrangler').factory('Note', function($resource){
-  return $resouce('/notes/:id');
-
+angular.module('NoteWrangler').factory('Note', function($resource){
+  return $resource('/notes/:id');
 });
