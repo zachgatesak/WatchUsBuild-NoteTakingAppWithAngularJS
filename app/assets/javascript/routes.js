@@ -20,7 +20,7 @@ angular.module('NoteWrangler').config(function($routeProvider,$locationProvider)
     controller: "NotesShowController"
   })
     .when('/notes/:id/edit',{
-    templateUrls: "assets/templates/notes/edit.html",
+    templateUrl: "assets/templates/notes/edit.html",
     controller: "NotesEditController"
   });
 });
