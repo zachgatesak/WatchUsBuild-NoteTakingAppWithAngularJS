@@ -7,4 +7,6 @@ Project Checklist
       route
       resource
       angular itself
-    
+
+
+Note that the above code requires the hashprefix to be set to ""

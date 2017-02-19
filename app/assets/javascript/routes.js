@@ -1,4 +1,5 @@
-angular.module('NoteWrangler').config(function($routeProvider){
+angular.module('NoteWrangler').config(function($routeProvider,$locationProvider){
+    $locationProvider.hashPrefix('');
     $routeProvider
 
     .when('/',{
