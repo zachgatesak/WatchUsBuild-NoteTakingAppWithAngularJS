@@ -1,1 +1,10 @@
 **New file for starting**
+Project Checklist
+  Download Dependencies:
+    Bootstrap : getbootstrap.com
+    Jquery: production copy
+    Angular: code.angular.js.org
+      route
+      resource
+      angular itself
+    

@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="NoteWrangler">
   <head>
-    <meta charset="utf-8">
     <title>Note Wrangler</title>
     <link rel="stylesheet" href="assets/styles/bootstrap.css"></link>
     <link rel="stylesheet" href="assets/styles/bootstrap-theme.css"></link>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <h1>Note Wrangler</h1>
+    <div ng-view></div>
   </body>
-
 
   <!-- Vendor -->
   <script src="assets/javascript/vendor/jquery-3.1.1.js"></script>
@@ -18,8 +17,15 @@
   <script src="assets/javascript/vendor/angular-resource.js"></script>
 
   <!-- App -->
+  <script src="assets/javascript/app.js"></script>
+  <script src="assets/javascript/routes.js"></script>
+
   <!-- Directives -->
   <!-- Controllers -->
+  <script src="assets/javascript/controllers/notesIndexController.js"></script>
+  <script src="assets/javascript/controllers/notesShowController.js"></script>
+  <script src="assets/javascript/controllers/notesEditController.js"></script>
+  <script src="assets/javascript/controllers/notesCreateController.js"></script>
   <!-- Services -->
 
 
