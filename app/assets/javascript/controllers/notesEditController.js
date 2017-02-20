@@ -11,5 +11,5 @@ angular.module('NoteWrangler').controller('NotesEditController', function($scope
       $scope.isSubmitting = false;
       $location.path("/notes/" + note.id);
     });
-  }
+  };
 });

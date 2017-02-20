@@ -13,5 +13,5 @@ angular.module('NoteWrangler').controller('NotesCreateController', function($sco
       .finally(function(){
         $scope.isSubmitting = false;
       });
-  }
+  };
 });

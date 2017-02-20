@@ -14,5 +14,5 @@ angular.module('NoteWrangler').filter('categoryFilter', function(){
     return collection;
   }
 
-  }
+  };
 });

@@ -5,5 +5,5 @@ angular.module('NoteWrangler').controller('NotesShowController', function(Note, 
     note.$remove().then(function(){
       $location.path('/notes');
     });
-  }
+  };
 });
